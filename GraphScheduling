@@ -1,0 +1,19 @@
+digraph G {
+	node [color=darkolivegreen1 style=filled]
+	a11 [label=a1 shape=ellipse]
+	a21 [label=a2 shape=ellipse]
+	Unit01 [label="+" shape=circle]
+	outcomeUnit01 [label="" height=.1 shape=diamond style=filled width=.1]
+	Unit01 [label="+" shape=circle]
+	subgraph cluster1 {
+		a11 -> Unit01
+		a21 -> Unit01
+		Unit01 -> outcomeUnit01 [arrowhead=none]
+		label="Clk 1"
+		style=filled
+		color=coral
+	}
+	outcomeUnit01 -> End
+	style=filled
+	End [shape=Msquare]
+}

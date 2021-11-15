@@ -1,0 +1,31 @@
+ADD1 + di7, di1,
+ADD2 + di3, di5,
+ADD3 + di6, di2,
+!
+ADD1 + di4, ADD1,
+ADD2 + di0, di8,
+ADD3 + ADD2, ADD2,
+ADD4 + ADD3, ADD3,
+!
+ADD1 + ADD1, ADD2,
+ADD2 + ADD3, ADD4,
+!
+ADD1 + ADD2, ADD1,
+
+
+((a*b)/(c*d))-a-((e*f)/b)
+
+
+
+a*b/c*d-a-((e*f)/b)
+
+
+
+
+
+q-q+w*e/r
+
+
+
+0.125 * (di0 + di8 ) - 0.25 * (di1 + di7 ) - 0.75 * (di2 + di6 ) - 1.25 * (di3 + di5 ) +1.25 * di4
+
