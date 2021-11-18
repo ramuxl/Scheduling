@@ -12,4 +12,6 @@ apt-get install graphviz
 
 pip install pyparsing
 
+Running the Program:
+
 python Main.py
